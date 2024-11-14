@@ -17,5 +17,51 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <section id="contacto"> 
+            <h2>Fotrmulario de contacto</h2>
+            <p>Rellena el formulario para enviar tus comentarios o preguntas</p>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text"id= ¨nombre¨ placeholder="Escribe tu nombre" required>
+                <label for="email">Correo electronico</label>
+                <input type="email" id="email" placeholder="ejemplo@correo.com"required>
+                <label for="asunto">Asunto</label>
+                <select id="asunto"required>
+                    <option>Consulta</option>
+                    <option>Sugerencia</option>
+                    <option>Queja</option>
+                    <option>Otro</option>
+    </select>
+
+    <label for="mensaje">Mensaje</label>
+    <textarea id="mensaje" rows="5" placeholder="Escribe tu mensaje aqui"required></textarea>
+    <fieldset>
+        <legend>Genero</legend>
+        <label for="genero masculino">Masculino</label>
+        <input type="radio" name=¨genero¨ id="genero masculino">
+        <label for="genero femenino">Femenino</label>
+        <input type="radio" name=¨genero¨ id="genero femenino">
+        <label for="genero otro">Otro</label>
+        <input type="radio" name=¨genero¨ id="genero otro">
+    </fieldset>
+    <fieldset>
+        <legend>Intereses</legend>
+        <label for="intereses-cocinar">Cocinar</label>
+        <input type="checkbox" name="cocinar" id="intereses-cocinar">
+        <label for="intereses-meditar">Meditar</label>
+        <input type="checkbox" name="meditar" id="intereses-meditar">
+        <label for="intereses-escribir">Escribir</label>
+        <input type="checkbox" name="escribir" id="intereses-escribir">
+    </fieldset>
+
+    <button type="submit">Enviar</button>
+     
+            </form>
+
+        </section>
+    </main>
+
+
 </body>
 </html>
